@@ -17,17 +17,28 @@ p{
 section.section-one{
     display: flex;
     background-color: aqua;
-    padding: 100px;
+    padding: 100px 0 100px 100px;
 }
 
-.width-half{
+.width-half {
     width: 50%;
 }
 
-img{
-    width: 100%;
+.width-half img{
+    width: 80%;
 }
 
-.width-half section-one-text{
+button{
+    margin-top: 20px;
+    background-image: linear-gradient(#FBA24F, #FF1E1E);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    box-shadow: 0 0 10px  rgb(213, 213, 213);
 
+}
+
+div.section-one-text{
+    margin-top: 80px;
 }
