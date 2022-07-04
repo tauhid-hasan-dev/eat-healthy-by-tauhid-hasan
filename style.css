@@ -1,3 +1,33 @@
 *{
-    background-color: skyblue;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}   
+
+section.section-one{
+    display: flex;
+    background-color: aqua;
+    padding: 100px;
+}
+
+.width-half{
+    width: 50%;
+}
+
+img{
+    width: 100%;
+}
+
+.width-half section-one-text{
+
 }
