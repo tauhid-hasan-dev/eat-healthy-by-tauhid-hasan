@@ -35,8 +35,12 @@ button {
     padding: 15px 30px;
     border: none;
     border-radius: 100px;
-    color: white;
     box-shadow: 0 0 10px rgb(213, 213, 213);
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 div.section-one-text {
@@ -74,14 +78,15 @@ section.section-two {
 
 .div-two-recipie {
     display: flex;
+    justify-content: space-around;
 }
 
-.left {
-    width: 50%;
-}
-
+.left,
 .right {
-    width: 50%;
+    width: 40%;
+    padding: 50px;
+    box-shadow: 0 0 20px rgb(196, 196, 196);
+    border-radius: 50px;
 }
 
 .left img {
