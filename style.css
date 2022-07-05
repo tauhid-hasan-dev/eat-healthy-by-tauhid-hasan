@@ -1,44 +1,93 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-h1{
+h1 {
     font-size: large;
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
 }
 
-p{
+p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-}   
+}
 
-section.section-one{
+section.section-one {
     display: flex;
     background-color: aqua;
     padding: 100px 0 100px 100px;
+
 }
 
 .width-half {
     width: 50%;
 }
 
-.width-half img{
-    width: 80%;
+.width-half img {
+    width: 90%;
 }
 
-button{
+button {
     margin-top: 20px;
-    background-image: linear-gradient(#FBA24F, #FF1E1E);
+    background-image: linear-gradient(to right, #FBA24F, #FF1E1E);
     padding: 15px 30px;
     border: none;
     border-radius: 100px;
     color: white;
-    box-shadow: 0 0 10px  rgb(213, 213, 213);
+    box-shadow: 0 0 10px rgb(213, 213, 213);
+}
+
+div.section-one-text {
+    margin-top: 80px;
+}
+
+section.section-two {
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
-div.section-one-text{
-    margin-top: 80px;
+.div-man {
+    width: 50%;
+    text-align: center;
+}
+
+.div-about {
+    width: 50%;
+    padding: 100px 100px 0 0;
+}
+
+/* section three */
+
+.section-three {
+    padding: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.div-one-recipie {
+    text-align: center;
+}
+
+.div-two-recipie {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.left img {
+    width: 100%;
+}
+
+.right img {
+    width: 100%;
 }
